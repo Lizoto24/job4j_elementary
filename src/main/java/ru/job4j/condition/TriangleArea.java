@@ -3,7 +3,7 @@ package ru.job4j.condition;
 public class TriangleArea {
     public static double area(double a, double b, double c) {
         double semiPerimeter = (a+b+c)/2;
-        double triangleArea = semiPerimeter * (semiPerimeter - a)*(semiPerimeter - b)*(semiPerimeter - b);
+        double triangleArea = semiPerimeter * (semiPerimeter - a)*(semiPerimeter - b)*(semiPerimeter - c);
         double result = Math.sqrt(triangleArea) ;
         return result;
     }
