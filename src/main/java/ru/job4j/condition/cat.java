@@ -21,7 +21,7 @@ public class cat {
 
         short e = 1500;
         char n = (char) e;
-        double w = c;
+        double w = n;
         System.out.println(w);
 }
 }
