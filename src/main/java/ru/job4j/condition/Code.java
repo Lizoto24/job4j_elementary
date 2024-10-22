@@ -16,7 +16,7 @@ public class Code {
     }
     public static void main(String[] args) {
        int result = Code.number (20,90,48);
-       System.out.println("Самое большое числ "   +result);
+       System.out.println("Самое большое число  "   +result);
     }
 }
 
