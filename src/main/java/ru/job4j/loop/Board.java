@@ -16,7 +16,7 @@ public class Board {
     }
 
     public static void main(String[] args) {
-        paint(8, 8);
+        paint(3, 3);
 
 
     }
