@@ -19,5 +19,6 @@ public class ArrayChar {
        char [] word1 = new  char [] {'п', 'р', 'и', 'в', 'е', 'т'};
        char [] prefix1 = new char [] {'п', 'р', 'е'};
        boolean result = ArrayChar.startsWith (word1, prefix1);
+       System.out.println(result);
     }
 }
